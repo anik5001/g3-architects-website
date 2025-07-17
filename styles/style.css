@@ -11,6 +11,10 @@
 }
 
 /* shared Styles */
+body{
+  margin: 0 auto;
+  max-width: 1440px;
+}
 .display-flex{
   display: flex;
 }
@@ -22,6 +26,9 @@
 }
 .dark3-color{
   color: #727272;
+}
+.primary-color{
+  color: #FF900E;
 }
 .bg1-color{
   background-color: rgba(255, 144, 14, 0.10);
@@ -63,7 +70,9 @@
   
 }
 /* banner styles */
-
+.banner{
+  margin-bottom: 90px;
+}
 
 
 .banner-info{
@@ -85,7 +94,70 @@
 .banner-img{
   width:100%;
  
+
 }
+/* feature team section */
+.feature-section{
+    align-items: center;
+    margin-bottom: 130px;
+    
+}
+.feature-team-img{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 24px;
+}
+.feature-heading{
+ margin-left: 70px;
+}
+.feature-heading h1{
+font-size: 3rem;
+font-weight: 800;
+}
+.feature-heading p{
+margin-bottom: 32px;
+}
+
+/* Feature you will love & enjoy section   */
+.feature-love-enjoy-section{
+
+}
+.feature-card{
+  /* display: grid;
+grid-template-columns: repeat(1,1fr); */
+}
+.feature-heading2{
+  font-weight: bold;
+  font-size: 2.9rem;
+  margin-left: 0px;
+  border-left: 7px solid #FF900E;
+  padding-left: 20px;
+}
+.card{
+  width: 580px;
+  height: 170px;
+  padding: 20px;
+   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+}
+.card-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+#btn-years{
+  font-weight: bold;
+  font-size: 4rem;
+}
+#btn-experience{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+#years-btn{
+  margin-top: -280px;
+  margin-left: 30px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width: 576px){
