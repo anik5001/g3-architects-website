@@ -6,7 +6,7 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: auto;
   font-style: normal;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 /* navbar styles */ 
 .navbar{
- /* justify-content: space-between; */
+ 
  justify-content: space-between;
  align-items: center;
 }
@@ -64,8 +64,8 @@ body{
 }
 
 
-.navbar,.banner{
- max-width: 1440px;
+.navbar,.banner main{
+ max-width: 1140px;
   margin: 0 auto;
   
 }
@@ -122,10 +122,7 @@ margin-bottom: 32px;
 .feature-love-enjoy-section{
  margin-bottom: 60px;
 }
-.feature-card{
-  /* display: grid;
-grid-template-columns: repeat(1,1fr); */
-}
+
 .feature-heading2{
   font-weight: bold;
   font-size: 2.9rem;
