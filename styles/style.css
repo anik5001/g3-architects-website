@@ -41,6 +41,7 @@ body{
   font-weight: 600;
   border-radius: 8px;
   border: none;
+  margin-top: 20px;
 }
 /* navbar styles */ 
 .navbar{
@@ -226,7 +227,7 @@ footer{
 }
 
 
-/* responsive media query */
+/* responsive media query for small device*/
 @media screen and (max-width: 576px){
   .navbar{
   display: grid;
@@ -240,10 +241,12 @@ footer{
   .navbar-link{
   flex-direction: column;
   text-align: center;
+  gap: 10px;
   }
   .feature-section{
     flex-direction: column;
      text-align: center;
+    
   }
   .feature-team-img{
     grid-template-columns: repeat(1,1fr);
